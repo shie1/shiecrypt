@@ -1,3 +1,7 @@
+$.getJSON("https://raw.githubusercontent.com/shie1/shiecrypt/main/l.json", function (json) {
+    ls = json
+});
+
 function encrypt(key, string) {
     let array = toNum(string)
     let bkey = bigKey(key)
