@@ -1,3 +1,5 @@
+let ls
+
 $.getJSON("https://raw.githubusercontent.com/shie1/shiecrypt/main/l.json", function (json) {
     ls = json
 });
