@@ -1,5 +1,6 @@
 let sCrypt = {
-    dev: {}
+    dev: {},
+    x: {}
 }
 
 sCrypt.encrypt = function (key, string) {
