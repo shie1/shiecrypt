@@ -91,7 +91,7 @@ try { // If jQuery is present, use it to load l.json
     });
 }catch{ // Otherwise load it from a script
     script = document.createElement('script')
-    script.src = "/l.js" //https://cdn.jsdelivr.net/gh/shie1/shiecrypt@main/l.js
+    script.src = "https://cdn.jsdelivr.net/gh/shie1/shiecrypt@main/l.js"
     script.type = "text/javascript"
     document.head.append(script)
     script.remove()
